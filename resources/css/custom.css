@@ -1,0 +1,75 @@
+:root {
+    --primary: #A31D1D;
+    --secondary: #D84040;
+    --dark: #2d3436;
+    --light: #f5f6fa;
+    --accent: #ECDCBF;
+}
+
+/* Apply theme colors to Tailwind elements */
+.text-primary {
+    color: var(--primary);
+}
+
+.text-secondary {
+    color: var(--secondary);
+}
+
+.text-dark {
+    color: var(--dark);
+}
+
+.text-light {
+    color: var(--light);
+}
+
+.text-accent {
+    color: var(--accent);
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.bg-secondary {
+    background-color: var(--secondary);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.bg-light {
+    background-color: var(--light);
+}
+
+.bg-accent {
+    background-color: var(--accent);
+}
+
+/* Focus ring colors */
+.focus\:ring-primary:focus {
+    --tw-ring-color: var(--primary);
+}
+
+.focus\:border-primary:focus {
+    border-color: var(--primary);
+}
+
+/* Hover colors */
+.hover\:bg-secondary:hover {
+    background-color: var(--secondary);
+}
+
+.hover\:text-secondary:hover {
+    color: var(--secondary);
+}
+
+/* Border colors */
+.border-primary {
+    border-color: var(--primary);
+}
+
+.border-secondary {
+    border-color: var(--secondary);
+}
